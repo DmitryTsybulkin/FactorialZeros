@@ -16,7 +16,7 @@ public class Main {
             try {
                 Integer value = parseArg(args);
                 BigInteger factorial = getFactorial(value);
-                System.out.format("Факторал числа %d равен %d \n", value, factorial);
+                System.out.format("Факториал числа %d равен %d \n", value, factorial);
                 long zeros = countZeros(factorial);
                 System.out.format("Количество нулей факториала заданного числа: %d", zeros);
             } catch (RuntimeException e) {
